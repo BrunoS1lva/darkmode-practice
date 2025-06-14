@@ -2,7 +2,10 @@
     --background-color: #121212;
     --text-color: #121212;
 }
-
+.dark{
+    --background-color: #ffffff;
+    --text-color: #ffffff;
+}
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container{
     display: flex;
